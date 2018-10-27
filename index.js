@@ -161,7 +161,7 @@ const client2 = new Discord.Client();
 var prefix2 = "$";
 
 client2.on('ready', () => {
-     client.user.setActivity("بوتك ف سيرفرك :joy: | By : RO7",{type: 'WATCHING'})
+     client2.user.setActivity("بوتك ف سيرفرك :joy: | By : RO7",{type: 'WATCHING'})
 client2.on('message', async message =>{
     if (message.author.boss) return;
       var prefix2 = "$";
