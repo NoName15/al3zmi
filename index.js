@@ -3,7 +3,7 @@ const client = new Discord.Client();
 var prefix = "$";
 
 client.on('ready', () => {
-     client.user.setActivity("NoThing | By : RO7",{type: 'WATCHING'})
+     client.user.setActivity("TokyoShop | By : jàKeY",{type: 'STREAMING'})
 client.on('message', async message =>{
     if (message.author.boss) return;
       var prefix = "$";
